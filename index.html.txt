@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BHAUTIK NAMA | Physics Tutor</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f5f7fa;
+}
+
+header {
+  background: #0B3C5D;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo svg {
+  width: 40px;
+}
+
+.logo h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #1D5D9B, #0B3C5D);
+  color: white;
+}
+
+.hero h2 {
+  font-size: 32px;
+}
+
+.btn {
+  background: #F57C00;
+  padding: 12px 25px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  margin: 15px;
+  padding: 20px;
+  width: 260px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #0B3C5D;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* WhatsApp Button */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+    <!-- SVG LOGO -->
+    <svg viewBox="0 0 100 100" fill="orange">
+      <circle cx="50" cy="50" r="10"/>
+      <ellipse cx="50" cy="50" rx="30" ry="12" fill="none" stroke="orange" stroke-width="3"/>
+      <ellipse cx="50" cy="50" rx="12" ry="30" fill="none" stroke="orange" stroke-width="3"/>
+    </svg>
+    <h1>BHAUTIK NAMA</h1>
+  </div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Courses</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Master Physics with Concept Clarity</h2>
+  <p>CBSE | ISC | IGCSE | A-Level (Class 11–12)</p>
+  <a class="btn" href="tel:7738183959">📞 Call Now</a>
+</section>
+
+<section class="section">
+  <h2>About Tutor</h2>
+  <p>
+    I’m Deepak Pandey (B.Sc, M.Sc Physics, B.Ed), an experienced Physics tutor 
+    focused on building strong concepts and helping students excel in exams.
+  </p>
+</section>
+
+<section class="section">
+  <h2>Courses</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>CBSE</h3>
+      <p>NCERT + Board Papers + Concept Clarity</p>
+    </div>
+    <div class="card">
+      <h3>ISC</h3>
+      <p>Numericals + Strong Theory Base</p>
+    </div>
+    <div class="card">
+      <h3>IGCSE / A-Level</h3>
+      <p>Advanced Concepts + Analytical Thinking</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Why Choose BHAUTIK NAMA?</h2>
+  <p>
+    ✔ Concept-based learning <br>
+    ✔ Personal attention <br>
+    ✔ Regular tests <br>
+    ✔ Exam preparation <br>
+  </p>
+</section>
+
+<section class="section">
+  <h2>Contact</h2>
+  <p>📞 7738183959</p>
+  <p>📧 deepakspandey93@gmail.com</p>
+  <p>📍 Home Tuition + Online Classes Available</p>
+</section>
+
+<footer>
+  <p>© BHAUTIK NAMA | Deepak Pandey</p>
+</footer>
+
+<!-- WhatsApp Floating Button -->
+<a class="whatsapp" href="https://wa.me/917738183959">WhatsApp</a>
+
+</body>
+</html>
